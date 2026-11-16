@@ -43,7 +43,7 @@ def show_ball():
     ax.plot(r_outside, u_outside, color="tab:red", label="Снаружи шара")
     ax.axvline(r0, color="gray", linestyle="--", label="Граница шара")
     ax.set_xlabel("Расстояние от центра r")
-    ax.set_ylabel("Потенциал u(r), СГС")
+    ax.set_ylabel("Потенциал u(r)")
     ax.set_title("Потенциал равномерно заряженного шара")
     ax.grid()
     ax.legend()
